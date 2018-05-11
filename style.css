@@ -1,0 +1,116 @@
+/*===============================
+	RESETER
+===============================*/
+
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body { display: flex; }
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+}
+
+a { text-decoration: none; }
+
+
+/*===============================
+	HEADER
+===============================*/
+
+#header-logo {
+	height: 30px;
+	width: 150px;
+    position: relative;
+    left: 15px;
+    margin: 25px 0;
+}
+
+/*===============================
+	ARTICLES
+===============================*/
+
+.articles-wrapper {
+	margin: auto;
+	width: 80%;
+}
+
+.article-card {
+	width: 30%;
+	display: inline-block;
+	margin: 1.5%;
+	vertical-align: top;
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 20px;
+
+	border-radius: 5px;
+	background-color: #FFF;
+	box-shadow: 0 4px 10px 0px rgba(25, 25, 45, 0.09);
+}
+
+.article-img {
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.article-title {
+	margin-bottom: 27px;
+	padding: 0 15px;
+
+	color: #000;
+	font-family: "Gelion", sans-serif;
+	font-size: 1.2em;
+	font-weight: 600;
+	line-height: 1.1em;
+	letter-spacing: -.015em;
+	text-indent: -.015em;
+}
+
+.article-autor {
+	padding: 0 15px;
+
+	color: rgb(200, 200, 207);
+	font-family: "Proxima Nova", sans-serif;
+	font-size: .8em;
+	font-weight: 100;
+	letter-spacing: .015em;
+	text-indent: .015em;
+}
+
+.article-btn {
+	padding: 5.5px 12.5px;
+	position: absolute;
+	right: 15px;
+	bottom: 15px;
+	cursor: pointer;
+
+	color: rgb(100, 20, 255);
+	font-family: "Proxima Nova", sans-serif;
+	font-size: .65em;
+	font-weight: 100;
+	letter-spacing: .015em;
+	text-indent: .015em;
+
+	border-radius: 50px;
+	border: 1px solid rgb(240, 240, 240);
+	background-color: transparent;
+
+	transition: all .15s ease-in-out;
+		-webkit-transition: all .15s ease-in-out;
+}
+
+.article-btn:hover {
+	color: rgb(255, 255, 255);
+	border: 1px solid rgb(100, 20, 255);
+	background-color: rgb(100, 20, 255);
+}
+
+
+
+

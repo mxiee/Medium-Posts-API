@@ -16,7 +16,6 @@
 	$postIds = $feed->payload->references->Post;
 	//print_r($postIds);
 	//print_r($postId);
-	$i = 0;
 
 ?>
 
@@ -46,7 +45,6 @@
 			<button class="article-btn">Read more</button>
 		</div></a>
 		<?php
-				if (++$i == 6) break;
 			}
 		?>
 	</section>

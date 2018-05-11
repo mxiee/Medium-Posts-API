@@ -36,7 +36,8 @@
 		<img id="header-logo" src="https://cdn-images-1.medium.com/max/1600/1*TGH72Nnw24QL3iV9IOm4VA.png" alt="logo medium"/>
 			<br/>
 		<?php
-			foreach($postIds as $postId) {
+			//foreach($postIds as $postId) {
+			for($i = 0; $i < count($postIds) && $i <= 6; ++$i) {
 		?>
 		<a href="https://www.medium.com/@<?php echo $username; ?>/<?php echo $postId->id; ?>" target=_blank><div class="article-card">
 			<img class="article-img" src="https://miro.medium.com/fit/c/1400/420/<?php echo $postId->virtuals->previewImage->imageId; ?>" alt="<?php echo $postId->title; ?>"/>
